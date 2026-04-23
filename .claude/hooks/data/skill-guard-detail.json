@@ -1,12 +1,16 @@
 {
-  "timestamp": "2026-03-21T00:00:05.922Z",
-  "autoMapped": [],
-  "explicit": [
-    "hooks",
-    "data",
-    "compact-metrics",
-    "model-recommendation",
-    "taisun_agent"
+  "timestamp": "2026-04-23T04:53:33.171Z",
+  "autoMapped": [
+    {
+      "name": "太陽スタイルLP",
+      "description": "太陽スタイルLP",
+      "required_skills": [
+        "taiyo-style-lp"
+      ],
+      "strict": false,
+      "skill_path": null
+    }
   ],
+  "explicit": [],
   "requiresSameWorkflow": false
 }

@@ -2,8 +2,8 @@
 
 > **CRITICAL**: 次のセッションは必ずこのファイルを読んでから作業を開始すること
 
-**最終更新**: 2026-03-14T04:56:10.552Z
-**作業ディレクトリ**: /Users/matsumototoshihiko/taisun_agent
+**最終更新**: 2026-04-21T13:30:43.733Z
+**作業ディレクトリ**: /Users/apple/taisun_agent
 
 ## 既存スクリプト（MUST READ）
 
@@ -13,15 +13,15 @@
 └─────────────────────────────────────────────────────────┘
 ```
 
-- `agent_os/runner.py` (7.0KB, 2026/2/16 7:20:42)
-- `dist/scripts/run-benchmarks.js` (9.5KB, 2026/3/9 21:10:34)
-- `generate_10_slides.py` (2.3KB, 2026/2/16 7:20:42)
-- `generate_full_guide.py` (5.0KB, 2026/2/16 7:20:42)
-- `generate_install_slides.py` (2.7KB, 2026/2/16 7:20:42)
-- `scripts/generate-release-approval.sh` (11.4KB, 2026/2/16 7:20:42)
-- `scripts/ollama-process-transcript.sh` (6.2KB, 2026/2/16 7:20:42)
-- `scripts/text_preprocessor.py` (11.2KB, 2026/2/16 7:20:42)
-- `tests/test_runner_retry_stop.py` (1.9KB, 2026/2/16 7:20:42)
+- `agent_os/runner.py` (7.0KB, 2026/3/22 14:52:47)
+- `dist/scripts/run-benchmarks.js` (9.5KB, 2026/4/21 22:07:53)
+- `generate_10_slides.py` (2.3KB, 2026/3/22 14:52:47)
+- `generate_full_guide.py` (5.0KB, 2026/3/22 14:52:47)
+- `generate_install_slides.py` (2.7KB, 2026/3/22 14:52:47)
+- `scripts/generate-release-approval.sh` (11.4KB, 2026/3/22 14:52:47)
+- `scripts/ollama-process-transcript.sh` (6.2KB, 2026/3/22 14:52:47)
+- `scripts/text_preprocessor.py` (11.2KB, 2026/3/22 14:52:47)
+- `tests/test_runner_retry_stop.py` (1.9KB, 2026/3/22 14:52:47)
 
 ## ワークフロー定義
 
@@ -50,23 +50,3 @@
 ---
 
 *このファイルはセッション終了時に自動生成されます*
-
----
-
-## 🗂️ TCPS Ledger（/compact 前バックアップ履歴）
-
-| 日時 | バックアップファイル | 保存件数 |
-|------|-------------------|---------|
-| 2026-03-16T15:54 | pre-compact-2026-03-16T15-54-24-635Z.json | 1件 |
-| 2026-03-16T15:54 | pre-compact-2026-03-16T15-54-24-598Z.json | 1件 |
-## 🔑 台本・コンテンツ整合性状態
-
-| 項目 | 状態 | 最終確認 |
-|------|------|---------|
-| 監視ファイル設定 | ✅ `.claude/hooks/config/tcps-watch-files.json` | 2026-03-17 |
-| バックアップ先 | ✅ `scripts/originals/backups/` | 2026-03-17 |
-| PreToolUse hook | ✅ `pre-compact-save.js` 登録済み | 2026-03-17 |
-| seed スクリプト | ✅ `marketing-hub/scripts/seed-kindle-ai-seminar-lp.ts` (652行) | 2026-03-17 |
-| watchFiles 更新 | ✅ seed + script-master.md を監視対象に追加済み | 2026-03-17 |
-| script-master.md | ✅ `scripts/originals/script-master.md` (28セクション) | 2026-03-17 |
-| Stop hook | ✅ `session-end-ledger.js` 登録済み（Ledger 自動更新） | 2026-03-17 |

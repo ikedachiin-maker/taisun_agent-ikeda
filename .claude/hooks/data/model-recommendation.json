@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-06T01:54:27.043Z",
-  "complexity": "complex",
-  "confidence": 74,
+  "timestamp": "2026-04-23T04:58:56.419Z",
+  "complexity": "moderate",
+  "confidence": 30,
   "taskModel": "sonnet",
   "claudeCodeModel": "sonnet",
-  "litellmModel": "minimax-m2-5",
-  "description": "新機能実装・API構築・マルチファイル変更",
-  "reason": "キーワード検出: agent",
+  "litellmModel": null,
+  "description": "ファイル修正・関数追加・テスト作成",
+  "reason": "入力長 38文字による推定",
   "previousModel": "sonnet",
   "switched": false
 }

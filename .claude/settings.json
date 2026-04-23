@@ -46,6 +46,19 @@
       ],
       "description": "CodeGraph - コードベース知識グラフ検索・影響分析（64言語対応）",
       "category": "code-intelligence"
+    },
+    "freee": {
+      "command": "npx",
+      "args": ["freee-mcp"],
+      "disabled": false,
+      "defer_loading": true,
+      "description": "freee会計 - 仕訳・残高・請求書・人事労務をAIから操作"
+    },
+    "mfc_ca": {
+      "url": "https://beta.mcp.developers.biz.moneyforward.com/mcp/ca/v3",
+      "disabled": false,
+      "defer_loading": true,
+      "description": "マネーフォワード クラウド会計 - 仕訳・残高試算表・推移表をAIから操作"
     }
   },
   "maxParallelAgents": 5,
