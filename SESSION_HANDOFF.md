@@ -2,7 +2,7 @@
 
 > **CRITICAL**: 次のセッションは必ずこのファイルを読んでから作業を開始すること
 
-**最終更新**: 2026-04-21T13:30:43.733Z
+**最終更新**: 2026-04-23T22:52:02.663Z
 **作業ディレクトリ**: /Users/apple/taisun_agent
 
 ## 既存スクリプト（MUST READ）
@@ -14,7 +14,7 @@
 ```
 
 - `agent_os/runner.py` (7.0KB, 2026/3/22 14:52:47)
-- `dist/scripts/run-benchmarks.js` (9.5KB, 2026/4/21 22:07:53)
+- `dist/scripts/run-benchmarks.js` (9.5KB, 2026/4/22 17:32:29)
 - `generate_10_slides.py` (2.3KB, 2026/3/22 14:52:47)
 - `generate_full_guide.py` (5.0KB, 2026/3/22 14:52:47)
 - `generate_install_slides.py` (2.7KB, 2026/3/22 14:52:47)
